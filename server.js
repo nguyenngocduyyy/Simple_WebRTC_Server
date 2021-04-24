@@ -27,7 +27,7 @@ io.on('connection', socket => {
 });
 
 server.listen(process.env.PORT || 8000, () =>
-  console.log("server is running on:" + process.env.HEROKU_APP_NAME)
+  console.log("server is running on: " + process.env.HEROKU_APP_NAME)
 );
 
 
